@@ -1,0 +1,10 @@
+.Header {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  flex-direction: column;
+}
+.container {
+  background: linear-gradient(90.16deg, #3d35b5 0.12%, #26247a 102.34%);
+}

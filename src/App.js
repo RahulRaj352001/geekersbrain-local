@@ -12,10 +12,10 @@ function App() {
       </header>
 
       <Routes>
-        <Route exact  path="/" element={<Home/>} />
-        <Route exact path="/home" element={<Home/>} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
 
-        <Route path="*" element={<ErrorPage/>} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
 
       <Footer />

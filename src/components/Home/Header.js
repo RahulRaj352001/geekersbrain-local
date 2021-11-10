@@ -1,9 +1,17 @@
-import React from 'react'
-
+import React from "react";
+import Navbar from "../layout/Navbar";
+import '../../static/style/home/header.css'
 export default function Header() {
-    return (
+  return (
+     <div className="container">
+         <div className="Header">
         <div>
-             this is header
+         <Navbar/>
         </div>
-    )
+        <div>
+             compony part
+        </div>
+    </div>
+     </div>
+  );
 }

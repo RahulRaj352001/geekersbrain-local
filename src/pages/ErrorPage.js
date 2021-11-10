@@ -1,9 +1,13 @@
-import React from 'react'
+import React ,{Fragment} from 'react'
+import { Metadata } from '../components/layout/Metadata'
 
 export default function ErrorPage() {
     return (
-        <div>
+       <Fragment>
+           <Metadata title={"404"}/>
+             <div>
              404 page not found
         </div>
+       </Fragment>
     )
 }
