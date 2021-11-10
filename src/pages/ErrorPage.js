@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Header() {
+export default function ErrorPage() {
     return (
         <div>
-             this is header
+             404 page not found
         </div>
     )
 }
