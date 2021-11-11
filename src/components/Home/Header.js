@@ -13,75 +13,82 @@ export default function Header() {
         <p className="hr" />
         <div className="banner">
           <div className="company">
-            <div className="heading">
+            <h1 className="heading">
               top rated mobile app dovelopment company.
-            </div>
+            </h1>
             <div className="subheading">
               greekersBrain is one of the most rated creative and experienced
               mobile app dovelopment companies in india. GreekersBrain is one of
               the most creative and experienced.
             </div>
             <div className="companybutton">
-              <button>view your work</button>
-              <button>know more</button>
+              <button className="view">
+                {" "}
+                <span>View our Work</span>{" "}
+              </button>
+              <button className="knowmore">
+                {" "}
+                <span>Know More</span>{" "}
+              </button>
             </div>
             <div className="companybrands">
               <img
+                className="clutch"
                 src={require("../../assets/banner/awards-logo 1.png").default}
                 alt=""
               />
               <img
-                src={require("../../assets/banner/goodfirm 1.png").default}
+                className="upwork"
+                src={require("../../assets/banner/upwork_icon 1.png").default}
                 alt=""
               />
+
               <img
-                src={require("../../assets/banner/upwork_icon 1.png").default}
+                className="good"
+                src={require("../../assets/banner/goodfirm 1.png").default}
                 alt=""
               />
             </div>
           </div>
           <div className="brand">
-              <div>
-                    <div>
-                    <img
-                src={require("../../assets/banner/Polygon 1.png").default}
-                alt=""
-              />
-                    </div>
+            <div className="brand-title">
+            <div className="polygonbox">
+              <div className="polygoncircle ">
+                <img
+                  src={require("../../assets/banner/Polygon 1.png").default}
+                  alt=""
+                />
               </div>
-              <div>
-                  <div>
-                      we design digital solution
-                  </div>
-                  <div>
-                      for brand and company
-                  </div>
-              </div>
-          </div>
-          <div>
-            <div>
+            </div>
+            <div className="polygontitle">
+              <div className="head1">we design digital solutions</div>
+              <div className="head2">for brands and companies</div>
+            </div>
+         
+            </div>
+          <div className="boxes">
+            <div className="box1">
               <img
                 src={require("../../assets/banner/app-develop 1.png").default}
                 alt=""
               />
-              <p>custom App solution </p>
+              <p>custom <br /> App solution </p>
             </div>
-            <div>
+            <div className="box2">
               <img
                 src={require("../../assets/banner/startup 1.png").default}
                 alt=""
               />
-              <p>startup solution</p>
+              <p>startup <br /> solution</p>
             </div>
-            <div>
+            <div className="box3">
               <img
                 src={require("../../assets/banner/car-rental 1.png").default}
                 alt=""
               />
-              <p>
-                  car rental solution
-              </p>
+              <p>car  rental <br />  solution</p>
             </div>
+          </div>
           </div>
         </div>
       </div>
