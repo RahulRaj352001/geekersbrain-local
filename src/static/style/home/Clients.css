@@ -1,18 +1,74 @@
-.clientContainer{
-   height: 90px;
-   width:auto;
-   border-bottom: 1px solid black;
-   padding:1vmax 5.9vmax;
+.clientContainer {
+  height: 85px;
+  width: auto;
+
+  /* height: 100%; */
+  border-bottom: 1px solid black;
+  padding: 1vmax 4vmax;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.client-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1.8vmax;
-    
+.client-box {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  overflow: scroll hidden;
+  overflow-x: auto;
 }
-.ourClients img{
-    width: 90%;
-    height: 70%;
+.client-box::scrollbar {
+  display: none;
+}
+
+.ourClients {
+  min-width: 160px;
+  min-height: 60px;
+  margin-right: 0.5vmax;
+}
+
+.ourClients img {
+  width: 65%;
+  height: 60%;
+  margin-right: 5vmax;
+}
+.nivax {
+  width: 65%;
+  height: 55%;
+  padding-top: 10px;
+}
+.airbnb {
+  width: 65%;
+  height: 55%;
+}
+.puma {
+  position: relative;
+  bottom: 10px;
+}
+.slack {
+  position: relative;
+  right: 20px;
+}
+.slack img {
+  width: 90%;
+  height: 65%;
+}
+.uber img {
+  width: 50%;
+  height: 50%;
+
+  margin-right: 4vmax;
+}
+.sony {
+  position: relative;
+  right: 30px;
+  top: 8px;
+}
+.sony img {
+  width: 70%;
+  height: 40%;
 }
