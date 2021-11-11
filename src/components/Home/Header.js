@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../layout/Navbar";
 import "../../static/style/home/header.css";
-// import { ReactComponent as Logo2 } from "../../assets/banner/app-develop 1.svg";
+
 
 export default function Header() {
   return (
