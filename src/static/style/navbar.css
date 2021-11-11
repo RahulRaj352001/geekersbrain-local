@@ -1,7 +1,111 @@
-.navbar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+.navbar {
+  width: 100%;
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  flex-basis: 25%;
+  padding-left: 1.8vmax;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.logo1 {
+}
+.logo2 {
+  padding-left: 0.8vmax;
+  padding-top: 0.6vmax;
+}
+.navMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.navmenu1 {
+  display: flex;
+  flex-direction: row;
+}
+.navmenu1 li:first-child {
+  list-style: none;
+  padding: 20px;
+  text-decoration: none;
+  font-family: Roboto;
+  /* font-family: Poppins; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.navmenu1 li {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: Poppins; */
+  padding: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.navmenu-2 {
+  width: 130px;
+  margin-right: 1vmax;
+  margin-left: 0.2vmax;
+  list-style: none;
+  cursor: pointer;
+
+  padding: 0.7vmax 1.3vmax;
+  text-decoration: none;
+  background: linear-gradient(180deg, #4abe28 0%, #67e243 100%);
+  border-radius: 150px;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+.navmenu-2 li {
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.navmenu-2 li a {
+  font-family: Poppins;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.navmenu-button {
+  padding-right: 2vmax;
+  /* font-family: Poppins; */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #ffffff;
 }

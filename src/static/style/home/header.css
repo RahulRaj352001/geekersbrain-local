@@ -7,4 +7,13 @@
 }
 .container {
   background: linear-gradient(90.16deg, #3d35b5 0.12%, #26247a 102.34%);
+  height: 808px;
+}
+.hr{
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.banner{
+  
+    color: white;
 }
